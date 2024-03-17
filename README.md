@@ -1,4 +1,4 @@
-# get_next_line
+# 📄 get_next_line
 
 ## Project Description
 
@@ -22,10 +22,12 @@ get_next_line is a function that reads a line from a file descriptor. It allows 
 
 2. Call the function get_next_line in your code to read a line from a file descriptor:
 
-        int    fd;
+           int        fd;
 
-        fd = open("example.txt", O_RDONLY);
-        printf("The output line: %s\n", get_next_line(fd));
+           fd = open("example.txt", O_RDONLY);
+           if (fd < 0)
+                   return (1);
+           printf("The output line: %s\n", get_next_line(fd));
 
 ## 📝 Author
 - [asyvash](https://github.com/redarling)
