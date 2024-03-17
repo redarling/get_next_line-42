@@ -1,8 +1,8 @@
 # get_next_line
 
-## Project Description 📝
+## Project Description
 
-get_next_line is a function that reads a line from a file descriptor. It allows you to read line by line from a file or a stream such as the standard input. This function is particularly useful for reading from files of unknown or variable length.
+get_next_line is a function that reads a line from a file descriptor. It allows you to read line by line from a file. This function is particularly useful for reading from files of unknown or variable length.
 
 ## 🛠️ Installation Instructions
 
